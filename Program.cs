@@ -1,6 +1,25 @@
 ﻿using StudyFlow.Services;
+using System.Net.Http;
+using System.Text.Json;
 
 var service = new TaskService();
+
+async Task<string> GetAdviceAsync()
+{
+    using HttpClient client = new HttpClient();
+
+    string response = await client.GetStringAsync("https://api.adviceslip.com/advice");
+
+    using JsonDocument doc = JsonDocument.Parse(response);
+
+    return doc.RootElement
+        .GetProperty("slip")
+        .GetProperty("advice")
+        .GetString()!;
+}
+
+Console.WriteLine("Mensagem motivacional:");
+Console.WriteLine(await GetAdviceAsync());
 
 while (true)
 {
@@ -43,13 +62,13 @@ while (true)
 
         case "3":
             Console.Write("Índice: ");
-            int doneIndex = int.Parse(Console.ReadLine());
+            int doneIndex = int.Parse(Console.ReadLine()!);
             service.MarkDone(doneIndex);
             break;
 
         case "4":
             Console.Write("Índice: ");
-            int removeIndex = int.Parse(Console.ReadLine());
+            int removeIndex = int.Parse(Console.ReadLine()!);
             service.RemoveTask(removeIndex);
             break;
 
