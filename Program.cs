@@ -1,4 +1,25 @@
-﻿using StudyFlow.Services;
+﻿using System.Text.Json;
+using StudyFlow.Services;
+
+async Task<string> GetAdviceAsync()
+{
+    try
+    {
+        using HttpClient client = new();
+
+        string response = await client.GetStringAsync("https://api.github.com/zen");
+
+        return response;
+    }
+    catch
+    {
+        return "Continue estudando: consistência vence motivação.";
+    }
+}
+
+var mensagem = await GetAdviceAsync();
+Console.WriteLine("Mensagem motivacional:");
+Console.WriteLine(mensagem);
 
 var service = new TaskService();
 

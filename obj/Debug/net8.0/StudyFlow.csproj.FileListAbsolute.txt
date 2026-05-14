@@ -1,0 +1,15 @@
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\bin\Debug\net8.0\StudyFlow.exe
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\bin\Debug\net8.0\StudyFlow.deps.json
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\bin\Debug\net8.0\StudyFlow.runtimeconfig.json
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\bin\Debug\net8.0\StudyFlow.dll
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\bin\Debug\net8.0\StudyFlow.pdb
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\StudyFlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\StudyFlow.AssemblyInfoInputs.cache
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\StudyFlow.AssemblyInfo.cs
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\StudyFlow.csproj.CoreCompileInputs.cache
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\StudyFlow.sourcelink.json
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\StudyFlow.dll
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\refint\StudyFlow.dll
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\StudyFlow.pdb
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\StudyFlow.genruntimeconfig.cache
+C:\Users\Hideki\Aula\DeverApiFuncio\StudyFlow\obj\Debug\net8.0\ref\StudyFlow.dll
